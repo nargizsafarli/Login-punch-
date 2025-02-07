@@ -212,3 +212,138 @@
     }
 } 
     
+.register-container{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    /* background-color: aqua; */
+}
+.register-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 1, 20);
+    width: 100%;
+    height: 45%;
+    color: white;
+
+    h3{
+        font-size: 72px;
+    }
+}
+.text-item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    h2{
+        font-size: 28px;
+        font-weight: 700;
+        color: blue;
+    }
+    h5{
+        font-size: 28px;
+        font-weight: 700;
+        color: greenyellow;
+    }
+    span{
+        font-size: 28px;
+        font-weight: 700;
+        color: blueviolet;
+    }
+}
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    top: 39%;
+    background-color: white;
+    border-radius: 50px 50px 0 0;
+    gap: 40px;
+
+    h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input{
+    padding: 13px;
+    width: 350px;
+    height: 57px;
+    border-radius: 50px;
+    border: 2px solid rgb(184, 182, 182);
+
+}
+
+::placeholder{
+    font-size: 14px;
+}
+.formButton{
+    padding: 13px;
+    width: 350px;
+    height: 57px;
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    transition: all 0.3s ease-in;
+
+    &:hover{
+        background-color: rgb(61, 60, 60);
+    }
+}
+
+.loginContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 633px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+.myLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(65, 63, 63);
+    gap: 13px;
+    border-radius: 50px;
+
+    h2{
+        font-size: 28px;
+    }
+}
+
+.loginButton{
+    padding: 13px;
+    width: 350px;
+    height: 57px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    transition: all 0.3s ease-in;
+    border: none;
+    font-size: 22px;
+    font-weight: 700;
+
+   &:hover{
+    background-color:  rgb(39, 38, 38);
+   }
+}
