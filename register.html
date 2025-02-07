@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -20,18 +21,21 @@
        <div class="sign-up">
         <h2>Sign Up</h2>
         <form class="myForm">
-       
+            <div class="div-items">
             <input type="text" placeholder="Full Name" class="input" id="fullname">
             <span class="error" id="fullnameError"></span>
-
+        </div>
+        <div class="div-items">
             <input type="text" placeholder="Phone Number" class="input" id="phone">
             <span class="error" id="phoneError"></span>
-
+        </div>
+        <div class="div-items">
             <input type="text" placeholder="Email" class="input" id="email">
             <span class="error" id="emailError"></span>
-             
-            <div class="passwordInput">
+        </div> 
+            <div class="passwordInput div-items">
                 <input type="password" placeholder="Password" class="input" id="password">
+                <p id="select"><i class="fa-solid fa-eye-slash" id="passEye"></i></p>
                 <span class="error" id="passwordError"></span>
             </div>
            <button type="submit" class="formButton">CREATE ACCOUNT</button>

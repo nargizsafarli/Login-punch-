@@ -214,9 +214,8 @@
     
 .register-container{
     width: 100%;
-    height: 810px;
+    height: 830px;
     position: relative;
-    /* background-color: aqua; */
 }
 .register-image{
     display: flex;
@@ -229,7 +228,7 @@
     color: white;
 
     h3{
-        font-size: 72px;
+        font-size: 100px;
     }
 }
 .text-item{
@@ -275,10 +274,15 @@
 .myForm{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    align-items: center;
     justify-content: center;
     gap: 7px;
-    width: 390px;
+    
+}
+.div-items{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
 }
 .input{
     padding: 13px;
@@ -374,4 +378,23 @@
 .passwordInput{
     display: flex;
     flex-direction: column;
+    position: relative;
+
+    i{
+        position: absolute;
+        top: 30%;
+        right: 8%;
+        color: gray;
+    }
+}
+
+.passEyeLogin{
+    position: relative;
+
+    i{
+        position: absolute; 
+        color: gray;
+        bottom: 35%;
+        left: 90%;
+    }
 }
