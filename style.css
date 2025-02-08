@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-color: rgb(252, 239, 241);
+    background-color: rgb(251, 239, 241);
     position: relative;
 
     h1{
@@ -22,7 +22,7 @@
       font-size: 98px;
        width: 334px;
       font-weight: 700;
-      color: rgb(45, 45, 201);
+      color: rgb(44, 45, 201);
     }
 }
 .items{
@@ -30,7 +30,7 @@
     gap: 20px;
     align-items: center;
     p{
-        font-size: 30px;
+        font-size: 31px;
         font-weight: 800;
         color: rgb(231, 112, 152);
     }
